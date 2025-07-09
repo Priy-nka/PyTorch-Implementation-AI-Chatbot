@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hey", "Hello", "Hi", "How you doing", "Whats up", "greetings", "Is anyone there"],
+      "responses": ["Hello!", "Glad to see you again!", "Hey there, how can I help?", "Greetings"]
+    },
+    {
+       "tag": "goodbye",
+      "patterns": ["bye", "cya", "see you later", "Goodbye", "I'm leaving", "have a good day", "ciao", "See ya"],
+      "responses": ["Talk to you later", "Goodbye!", "Missing you already :(", "Have a blessed day :)"]
+    },
+    {
+       "tag": "recommendation",
+      "patterns": ["What book should I read?", "Tell me about reading", "What genre is the best?"],
+      "responses": ["You should try Classics.", "Fantasy literature is really popular among readers nowadays.", "Kafka is THE genre.", "Explain your taste in books."]
+    },
+    {
+       "tag": "explanation",
+      "patterns": ["What does this mean?", "Can you tell me what this is about?", "I don't understand this", "What's the meaning of this"],
+      "responses": ["Take a deep breath...and read this explanation thoroughly", "Don't stress about it. Here's the explanation"]
+    }
+  ]
+}
